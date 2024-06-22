@@ -5,9 +5,6 @@
  * https://leetcode.cn/problems/sum-multiples/description/
  */
 public class Num2652_SumOfMultiples {
-    public static void main(String[] args) {
-        System.out.println(new Num2652_SumOfMultiples().sumOfMultiples(9));
-    }
 
     /**
      * 思路：集合问题考虑多加的和多减的即可。

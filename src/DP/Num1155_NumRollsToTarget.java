@@ -4,7 +4,6 @@ package DP;
  * @Author lty
  * @Date 2023/10/24 09:43
  * @Description 1155. 掷骰子等于目标和的方法数
- * https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/description/
  */
 public class Num1155_NumRollsToTarget {
     public static void main(String[] args) {
@@ -60,7 +59,7 @@ public class Num1155_NumRollsToTarget {
         for (int i = 1; i < n; i++) {
             long sum = 0, buf = 0;
             // 遍历可能的数字
-            for (int j = 1; j < target+1; j++) {
+            for (int j = 1; j < target + 1; j++) {
                 buf = dp[j];
                 dp[j] = sum;
                 sum += buf - (j > k ? dp[j - k] : 0);

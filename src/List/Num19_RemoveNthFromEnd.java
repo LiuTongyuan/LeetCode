@@ -3,7 +3,7 @@ package List;
 /**
  * @Author 年年
  * @Date 2022/7/8 9:59
- * @Description 19. 删除链表的倒数第 N 个结点
+ * @Description 19. 删除链表的倒数第 Week396 个结点
  * https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
  */
 public class Num19_RemoveNthFromEnd {

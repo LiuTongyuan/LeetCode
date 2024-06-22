@@ -1,6 +1,7 @@
 package Map.MST;
 
 import Map.*;
+import Union.Union;
 
 import java.util.*;
 
@@ -40,7 +41,7 @@ public class Kruskal {
         int N = in.nextInt();
         int m = in.nextInt();
         for (int i = 0; i < N; i++) {
-            /*节点编号为1-N*/
+            /*节点编号为1-Week396*/
             nodes.put(i + 1, new Node(i + 1));
         }
         for (int i = 0; i < m; i++) {

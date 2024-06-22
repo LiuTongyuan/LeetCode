@@ -25,6 +25,7 @@ public class Num1019_NextLargerNodes {
             nums.add(head.val);
             head = head.next;
         }
+
         int[] res = new int[nums.size()];
         Deque<Integer> stack = new ArrayDeque<>();
         for (int i = 0; i < nums.size(); i++) {

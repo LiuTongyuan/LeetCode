@@ -41,7 +41,7 @@ public class Dijkstra {
         int N = in.nextInt();
         int m = in.nextInt();
         for (int i = 0; i < N; i++) {
-            /*节点编号为1-N*/
+            /*节点编号为1-Week396*/
             nodes.put(i + 1, new Node(0));
         }
         for (int i = 0; i < m; i++) {

@@ -24,8 +24,4 @@ public class DecodeMessage {
         return res.toString();
     }
 
-    public static void main(String[] args) {
-        System.out.println(new DecodeMessage().decodeMessage("the quick brown fox jumps over the lazy dog"
-                , "vkbs bs t suepuv"));
-    }
 }
